@@ -1,0 +1,111 @@
+.shawarmaParentChild {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #ebe8e8, rgba(239, 238, 238, 0.86));
+  border: 1px solid var(--color-darkgray-200);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.chickenMandi {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.addCircleIcon,
+.imageRemovebgPreview93 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 2;
+}
+.addCircleIcon {
+  height: 28px;
+  width: 28px;
+  right: 16px;
+  bottom: -25px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.imageRemovebgPreview93 {
+  height: 133px;
+  width: 155px;
+  top: -127px;
+  right: -16px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.chickenMandiParent,
+.shawarmaParentInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.chickenMandiParent {
+  position: relative;
+}
+.shawarmaParentInner {
+  padding: 0 0 0 var(--padding-5xs);
+}
+.emptySlot,
+.rupeeIcon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.rupeeIcon {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.emptySlot {
+  height: 38px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 30px;
+}
+.currencyChild {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+}
+.currencyChild,
+.rupeeParent,
+.shawarmaParent {
+  display: flex;
+  align-items: flex-start;
+}
+.rupeeParent {
+  height: 40px;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-10xs-1);
+  margin-top: -5px;
+  color: var(--color-goldenrod);
+}
+.shawarmaParent {
+  flex: 0.9245;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: var(--padding-120xl) var(--padding-6xs) var(--padding-11xs);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 105px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 356px) {
+  .shawarmaParent {
+    flex: 1;
+  }
+}

@@ -1,0 +1,70 @@
+.burger-component {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: radial-gradient(
+      50% 50%at 50% 50%,
+      rgba(149, 149, 149, 0.72),
+      rgba(199, 199, 199, 0)
+    );
+    width: 100%;
+    height: 100%;
+  }
+  .burger-sandwich-3-icon {
+    position: absolute;
+    top: 66px;
+    left: 33px;
+    width: 280px;
+    height: 212.7px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .arrow-back-ios,
+  .burger-component-parent {
+    position: absolute;
+    top: 16px;
+    left: 6px;
+    width: 345px;
+    height: 345px;
+  }
+  .arrow-back-ios {
+    top: 0;
+    left: 0;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .frame-parent {
+    height: 361px;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+  }
+  .burger,
+  .burger-inner {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .burger-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-24xl) 0 var(--padding-17xl);
+    max-width: 100%;
+  }
+  .burger {
+    width: 100%;
+    position: relative;
+    border-radius: var(--br-31xl);
+    background: linear-gradient(185.18deg, #462b9c, rgba(100, 74, 181, 0.85));
+    overflow: hidden;
+    flex-direction: column;
+    padding: var(--padding-19xl) 0 0;
+    gap: var(--gap-32xl);
+    letter-spacing: normal;
+  }
+  

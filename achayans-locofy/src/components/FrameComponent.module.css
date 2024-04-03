@@ -1,0 +1,113 @@
+.promotions {
+  width: 167px;
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.frameChild {
+  height: 137px;
+  width: 378px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #9577f2, rgba(160, 133, 247, 0.86));
+  display: none;
+  max-width: 100%;
+}
+.freeBoxOf,
+.todaysOffer {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.todaysOffer {
+  width: 121px;
+}
+.freeBoxOf {
+  height: 25px;
+  font-size: var(--font-size-xl);
+  line-height: 30.4px;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+.iconsLibrary {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.onAllOrders {
+  position: relative;
+  z-index: 1;
+}
+.frameWrapper,
+.iconsLibraryParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.iconsLibraryParent {
+  align-self: stretch;
+  gap: var(--gap-xs);
+}
+.frameWrapper {
+  flex: 1;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 127px;
+}
+.frenchFriesB9e3e0c1Icon {
+  height: 107px;
+  width: 107px;
+  position: relative;
+  border-radius: var(--br-mid);
+  object-fit: cover;
+  z-index: 1;
+}
+.rectangleParent {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #9577f2, rgba(160, 133, 247, 0.86));
+  flex-direction: row;
+  padding: var(--padding-sm) var(--padding-4xl) var(--padding-base)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-10xl);
+  font-size: var(--font-size-base);
+  color: var(--color-snow);
+}
+.mainContainerInner,
+.promotionsParent,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.promotionsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.mainContainerInner {
+  width: 392px;
+  flex-direction: row;
+  padding: 0 var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 337px) {
+  .frenchFriesB9e3e0c1Icon {
+    flex: 1;
+  }
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}

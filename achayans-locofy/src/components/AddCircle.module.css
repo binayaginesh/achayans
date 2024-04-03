@@ -1,0 +1,500 @@
+.popular {
+  width: 136px;
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.backgroundImage {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #ebe8e8, rgba(239, 238, 238, 0.86));
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.burgerSandwich2Icon {
+  width: 130px;
+  height: 98.8px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.beefBurger {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  min-width: 107px;
+  z-index: 1;
+}
+.beefBurgerWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xl);
+}
+.div,
+.rupeeIcon {
+  position: relative;
+  z-index: 2;
+}
+.rupeeIcon {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.div {
+  align-self: stretch;
+  height: 38px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.circle,
+.rupeeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.circle {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.rupeeParent {
+  align-self: stretch;
+  width: 72px;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.addCircleIcon {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.addcircleButton {
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.figmaLogo,
+.frameParent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  margin-top: -2px;
+  color: var(--color-goldenrod);
+}
+.figmaLogo {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.chickensign,
+.figmaLogoWrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.figmaLogoWrapper {
+  align-self: stretch;
+  height: 76px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2xs) 0 0;
+}
+.chickensign {
+  flex: 0.882;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-2xl) var(--padding-base) var(--padding-2xs)
+    var(--padding-10xs);
+  position: relative;
+  gap: var(--gap-5xs-2);
+  min-width: 105px;
+}
+.pizzaFries {
+  position: absolute;
+  top: 128px;
+  left: 35px;
+  display: inline-block;
+  width: 90px;
+  height: 38px;
+  min-width: 90px;
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #ebe8e8, rgba(239, 238, 238, 0.86));
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.pizzaFries1Icon {
+  position: absolute;
+  top: 21px;
+  left: 14px;
+  width: 130px;
+  height: 112px;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 1;
+}
+.rupeeIcon1 {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.addCartButton {
+  height: 38px;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 38px;
+  z-index: 1;
+}
+.coffeeMilkshakeLabel {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.coffeeMilkshakeLabel,
+.priceDisplay,
+.totalLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.totalLabel {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-9xs);
+}
+.priceDisplay {
+  align-self: stretch;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.addCircleIcon1 {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.priceDisplayParent {
+  position: absolute;
+  top: 163px;
+  left: 7px;
+  height: 41px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+  color: var(--color-goldenrod);
+}
+.pizzaFriesParent {
+  height: 214px;
+  flex: 1;
+  position: relative;
+  mix-blend-mode: darken;
+  min-width: 105px;
+  z-index: 2;
+}
+.rupeeSign {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 0;
+  gap: var(--gap-39xl);
+}
+.checkoutLabelChild {
+  width: 161px;
+  height: 214px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #ebe8e8, rgba(239, 238, 238, 0.86));
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  display: none;
+  z-index: 1;
+}
+.imageRemovebgPreview41 {
+  align-self: stretch;
+  height: 127.6px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  cursor: pointer;
+  z-index: 2;
+}
+.chickenBiriyani {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.totalAmountLabel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-10xs);
+}
+.confirmButton,
+.rupeeIcon2 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 2;
+}
+.rupeeIcon2 {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.confirmButton {
+  height: 38px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 30px;
+}
+.grandTotalLabel,
+.taxLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.grandTotalLabel {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.taxLabel {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-10xs-1);
+}
+.addCircleIcon2 {
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.cancelButton,
+.subtotalLabel {
+  display: flex;
+  align-items: flex-start;
+}
+.cancelButton {
+  height: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.subtotalLabel {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 var(--padding-mid) 0 0;
+  gap: var(--gap-xl);
+  margin-top: -9px;
+  color: var(--color-goldenrod);
+}
+.checkoutLabel,
+.rupeeValue {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rupeeValue {
+  align-self: stretch;
+  height: 69px;
+  padding: 0 var(--padding-11xs) 0 0;
+  margin-top: -1.6px;
+}
+.checkoutLabel {
+  height: 214px;
+  width: 161px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #ebe8e8, rgba(239, 238, 238, 0.86));
+  border: 1px solid var(--color-darkgray-100);
+  padding: var(--padding-mini) var(--padding-9xs) var(--padding-9xs)
+    var(--padding-8xs);
+  min-width: 161px;
+}
+.coffeeMilkshake,
+.productPrice {
+  height: 38px;
+  position: relative;
+  display: inline-block;
+}
+.coffeeMilkshake {
+  align-self: stretch;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.productPrice {
+  font-weight: 600;
+  min-width: 30px;
+  z-index: 2;
+}
+.productName {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-15xl);
+  margin-top: -11px;
+  color: var(--color-goldenrod);
+}
+.removeButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background: linear-gradient(108.78deg, #ebe8e8, rgba(239, 238, 238, 0.86));
+  border: 1px solid var(--color-darkgray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.addCircleIcon3 {
+  position: absolute;
+  top: 168px;
+  left: 110px;
+  width: 28px;
+  height: 28px;
+  overflow: hidden;
+  z-index: 2;
+}
+.rupeeIcon3 {
+  position: absolute;
+  top: 166px;
+  left: 7px;
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  z-index: 2;
+}
+.productDescription {
+  width: 161px;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.coffeeMilkshakeParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-122xl) 0 var(--padding-5xs) var(--padding-8xs);
+  box-sizing: border-box;
+  position: relative;
+  min-width: 119px;
+}
+.checkoutLabelParent {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-39xl);
+}
+.addCircle,
+.checkoutLabelParent,
+.chickenBiriyaniLabel,
+.milkshakeLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.milkshakeLabel {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-32xl);
+  font-size: var(--font-size-lg);
+}
+.addCircle,
+.chickenBiriyaniLabel {
+  max-width: 100%;
+}
+.chickenBiriyaniLabel {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-9xs);
+}
+.addCircle {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 402px) {
+  .checkoutLabelParent,
+  .rupeeSign {
+    gap: 58px 29px;
+  }
+  .milkshakeLabel {
+    gap: 25px 51px;
+  }
+}
+@media screen and (max-width: 350px) {
+  .chickensign,
+  .pizzaFriesParent {
+    flex: 1;
+  }
+  .rupeeSign {
+    flex-wrap: wrap;
+  }
+  .checkoutLabel {
+    flex: 1;
+  }
+  .checkoutLabelParent {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,108 @@
+.smilingChefCartoonCharacterIcon {
+  width: 74px;
+  height: 74px;
+  position: relative;
+  border-radius: var(--br-13xl);
+  object-fit: cover;
+}
+.childrenContainers {
+  height: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.untitled1Icon {
+  height: 82px;
+  width: 175px;
+  position: relative;
+  object-fit: cover;
+}
+.childrenContainersParent,
+.fRAME {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.childrenContainersParent {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.fRAME {
+  justify-content: flex-end;
+  padding: 0 var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild {
+  height: 58px;
+  width: 358px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.searchIcon {
+  width: 28px;
+  height: 26px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.linkContainer {
+  height: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.search {
+  width: 158px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-poppins);
+  font-size: var(--font-size-3xl);
+  background-color: transparent;
+  height: 36px;
+  position: relative;
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+  z-index: 1;
+}
+.fRAMEParent,
+.rectangleParent {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 358px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-whitesmoke);
+  flex-direction: row;
+  align-items: flex-start;
+  padding: var(--padding-2xs) var(--padding-lgi);
+  gap: var(--gap-mini);
+}
+.fRAMEParent {
+  width: 393px;
+  height: 156px;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-xl) var(--padding-9xs) 0;
+  gap: var(--gap-xs);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
